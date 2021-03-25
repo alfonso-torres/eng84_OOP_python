@@ -7,7 +7,7 @@ class Python(Snake):
 
         self.large = True
         self.two_lungs = True
-        self.venum = False
+        self.venom = False # Polymorphism
 
     def clim(self):
         return "up we go ..."
@@ -26,4 +26,4 @@ print(python_object.breath()) # breath() is from Animal class
 # We initialize the attribute venum in the class python like we did in snake, we are overridden from the parent class
 # so if we want to use this attribute, it will use the one defined in the child class
 
-print(python_object.venum)
+print(python_object.venom)

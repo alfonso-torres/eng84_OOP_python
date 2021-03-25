@@ -20,10 +20,15 @@ class Animal():
         return " keep breathing if you want to live"
 
 # Creating an object of our Animal class
+cat = Animal() # this will store all the data available in Animal class into cat
+oriental_long_hair = Animal()
 
-# cat = Animal() # this will store all the data available in Animal class into cat
+# print(oriental_long_hair.breath())
 
-# print(cat.eat()) # ABSTRACTION -> THE USER DOESN'T NEED TO KNOW WHAT IS HAPPENING BEHIND BUT HE JUST KNOW THAT WITH CAT HE HAS DIFFERENTS OPTIONS WITH cat.
-# eat() is Abstraction
+# print(cat.eat())  # eat() is Abstraction
+# ABSTRACTION -> THE USER DOESN'T NEED TO KNOW WHAT IS HAPPENING BEHIND BUT HE JUST KNOW THAT WITH CAT HE HAS DIFFERENTS OPTIONS WITH cat.
+oriental_long_hair.lungs = False # Polymorphism because he changed the value and it's using his value, not from parent.
 
+# Polymorphism here we utilised to override the value of lungs particularly for oriental_long_hair
+print(oriental_long_hair.lungs)
     # pass # pass is a key word used to by pass the code

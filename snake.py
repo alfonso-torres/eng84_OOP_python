@@ -7,7 +7,7 @@ class Snake(Reptile):
     def __init__(self):
         super().__init__()
         self.limbs = False
-        self.venum = True
+        self.venom = True
         self.fork_tongue = True
 
     def use_tongue_to_smell(self):
